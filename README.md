@@ -1,6 +1,6 @@
 ## [BlackboxAI Agent](https://github.com/Coral-Protocol/Coral-Pandas-Agent)
  
-The BlackboxAI agent can help you solve any code-related task.
+BLACKBOX AI is a coding-focused AI platform that delivers precise, context-aware support to streamline software development and tackle complex programming challenges efficiently.
 
 ## Responsibility
 
