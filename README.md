@@ -1,4 +1,4 @@
-## [BlackboxAI Agent](https://github.com/Coral-Protocol/Coral-Pandas-Agent)
+## [BlackboxAI Agent](https://github.com/Coral-Protocol/Coral-BlackboxAI-Agent)
  
 BLACKBOX AI is a coding-focused AI platform that delivers precise, context-aware support to streamline software development and tackle complex programming challenges efficiently.
 
@@ -11,6 +11,7 @@ The BlackboxAI agent can help you solve any code-related task.
 - **Tools used**: Coral Server Tools
 - **AI model**: OpenAI GPT-4.1-mini
 - **Date added**: 06/07/25
+- **Reference**: [BlackboxAI](https://www.blackbox.ai/)
 - **License**: MIT
 
 ## Setup the Agent
