@@ -23,7 +23,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # Load environment variables
-load_dotenv()
+load_dotenv(override=True)
 
 base_url = os.getenv("CORAL_SSE_URL")
 agentID = os.getenv("CORAL_AGENT_ID")
@@ -31,7 +31,7 @@ agentID = os.getenv("CORAL_AGENT_ID")
 params = {
     # "waitForAgents": 1,
     "agentId": agentID,
-    "agentDescription": """BlackboxAI agent. Responsible for solving code related tasks."""
+    "agentDescription": """BlackboxAI agent. Responsible for creating code."""
 }
 query_string = urllib.parse.urlencode(params)
 MCP_SERVER_URL = f"{base_url}?{query_string}"
